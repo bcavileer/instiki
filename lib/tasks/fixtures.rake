@@ -1,4 +1,4 @@
-require Rails.root.join('vendor', 'plugins', 'manage_fixtures', 'lib', 'manage_fixtures.rb')
+require Instiki::Engine.root.join('vendor', 'plugins', 'manage_fixtures', 'lib', 'manage_fixtures.rb')
 
 desc "use rake db:fixtures:export_using_query SQL=\"select * from foo where id='bar'\" FIXTURE_NAME=foo"
 namespace :db do  
