@@ -6,7 +6,7 @@ require "instiki/version"
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
   s.name        = "instiki"
-  s.version     = Instiki::VERSION
+  s.version     = Instiki::VERSION::STRING
   s.authors     = ["Benjamin Cavileer"]
   s.email       = ["bcavileer@gmail.com "]
   s.homepage    = ""

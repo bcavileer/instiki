@@ -1,0 +1,54 @@
+GIT
+  remote: http://github.com/distler/file_signature.git
+  revision: 1fc6d3dab7c1cc1896911c000ebf79ef315036ef
+  specs:
+    file_signature (1.2.0)
+
+GIT
+  remote: http://github.com/distler/maruku.git
+  revision: 1ab982f143f667327d21ff85ecb902f52692da18
+  branch: nokogiri
+  specs:
+    maruku (0.7.0.beta1)
+      itextomml (~> 1.4.10)
+      nokogiri (~> 1.5, >= 1.5.6)
+      syntax (>= 1.0.0)
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    RedCloth (4.2.9)
+    daemons (1.0.10)
+    erubis (2.7.0)
+    gem_plugin (0.2.3)
+    itextomml (1.4.10)
+    json (1.7.7)
+    mongrel (1.2.0.pre2)
+      daemons (~> 1.0.10)
+      gem_plugin (~> 0.2.3)
+    nokogiri (1.5.6)
+    rack (1.5.2)
+    rake (10.0.3)
+    rdoc (3.12.1)
+      json (~> 1.4)
+    rubyzip (0.9.9)
+    sqlite3 (1.3.7)
+    syntax (1.0.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  RedCloth (>= 4.0.0)
+  erubis
+  file_signature!
+  itextomml (>= 1.4.10)
+  json
+  maruku!
+  mongrel (>= 1.2.0.pre2)
+  nokogiri
+  rack (>= 1.1.3)
+  rake
+  rdoc
+  rubyzip
+  sqlite3

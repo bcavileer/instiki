@@ -5,7 +5,7 @@ require 'zip/zip'
 require 'instiki_stringsupport'
 require 'resolv'
 
-class WikiController < ApplicationController
+class Instiki::WikiController < Instiki::ApplicationController
 
   before_filter :load_page
   before_filter :dnsbl_check, :only => [:edit, :new, :save, :export_html, :export_markup]
